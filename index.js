@@ -1,3 +1,4 @@
-// import "./js/module-1/primitives.js";
-// import "./js/module-1/toString.js";
-import "./js/module-1/toNumber.js";
+// import "./js/primitives.js";
+// import "./js/toString.js";
+// import "./js/toNumber.js";
+import "./js/array.js";
