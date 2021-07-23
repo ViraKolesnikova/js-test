@@ -78,7 +78,7 @@ numbers[0] = 200;
 // console.log(myNumbers);
 
 //Array Methods
-console.log(numbers);
+// console.log(numbers);
 
 //slice()
 const myNumbers = numbers.slice();
@@ -90,46 +90,66 @@ const firstTwoElens = numbers.slice(0, 2);
 
 //split()
 let myString = 'my String';
-console.log(typeof myString, myString);
-console.log(myString[0]);
-console.log(myString[1]);
-console.log(myString[2]);
-console.log(myString[3]);
-console.log(myString[4]);
+// console.log(typeof myString, myString);
+// console.log(myString[0]);
+// console.log(myString[1]);
+// console.log(myString[2]);
+// // console.log(myString[3]);
+// console.log(myString[4]);
 
 const arrayFromString1 = myString.split('');
-console.log(arrayFromString1)
+// console.log(arrayFromString1)
 
 const arrayFromString2 = myString.split(' ');
-console.log(arrayFromString2)
+// console.log(arrayFromString2)
 
 const arrayFromString3 = myString.split('n');
-console.log(arrayFromString3)
+// console.log(arrayFromString3)
 
 //join()
 const myArray = ['I', 'love', 'js'];
-console.log(myArray.length);
+// console.log(myArray.length);
 
 let arrayToString = myArray.join(' ')
-console.log(arrayToString);
+// console.log(arrayToString);
 
 //indexOf() & include()
-console.log(myArray);
-console.log(myString);
+// console.log(myArray);
+// console.log(myString);
 
 // unshift()   ADD      push(elem....)
 // shift()   DELETE    pop(elem....)
 const exampleArray = [1, 1, 4, 4];
-console.log(exampleArray);
+// console.log(exampleArray);
 const unshiftElem = exampleArray.unshift(0,9,8);
-console.log(exampleArray);
+// console.log(exampleArray);
 const pushElem = exampleArray.push(5,6,7);
-console.log(exampleArray);
+// console.log(exampleArray);
 const shiftElem = exampleArray.shift();
-console.log(exampleArray);
+// console.log(exampleArray);
 const popElem = exampleArray.pop();
-console.log(exampleArray);
+// console.log(exampleArray);
 
 //splice(index, num) - delete elements
+// console.log(exampleArray);
+let deleteSplice= exampleArray.splice(1, 1);
+// console.log(exampleArray);
+// console.log(deleteSplice);
+
 
 //splice(index, 0, elem.....) - add elements
+let addSplice = exampleArray.splice(0, 0, 'I love js');
+console.log(addSplice);
+console.log(exampleArray);
+
+//splice(index, 0, elem.....) - replace elements
+let replaceSplice = exampleArray.splice(7, 1, 'React', 'Node js');
+console.log(replaceSplice);
+console.log(exampleArray);
+
+//concat
+const firstPiece = [1, 2];
+const secondPiece = [3,4];
+const thirdPiece = [5, 6];
+const fullArray = firstPiece.concat(secondPiece, thirdPiece);
+console.log(fullArray);
