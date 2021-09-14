@@ -5,4 +5,5 @@
 // import "./js/functions.js";
 // import "./js/practice.js";
 // import "./js/classes.js";
-import "./js/codewars.js";
+// import "./js/codewars.js";
+import "./js/dom.js";
